@@ -1,0 +1,42 @@
+{
+    "settings": {
+		"terminal.integrated.shell.linux": null,
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorTheme": "One Monokai Dark",
+		"editor.suggestSelection": "first",
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		},
+		"liveshare.presence": true,
+		"liveshare.featureSet": "insiders",
+		"gitlens.views.repositories.files.layout": "tree",
+		"editor.formatOnType": true,
+		"editor.acceptSuggestionOnEnter": "off",
+		"java.semanticHighlighting.enabled": true,
+		"scm.alwaysShowRepositories": true,
+		"files.autoSave": "off",
+		"git.confirmSync": false
+	},
+    "extensions": [
+        "amirha.better-comments-2",
+        "coenraads.bracket-pair-colorizer",
+        "donjayamanne.githistory",
+        "codezombiech.gitignore",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "vscjava.vscode-java-pack",
+        "pkief.material-icon-theme",
+        "tgreen7.one-monokai-dark",
+        "ziyasal.vscode-open-in-github",
+        "wpilibsuite.vscode-wpilib"
+	],
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "java",
+	"workspaceFolder": "/workspace"
+}
