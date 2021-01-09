@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM wpilib/roborio-cross-ubuntu:2021-18.04
 
 WORKDIR /workspace
 
