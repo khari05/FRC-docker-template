@@ -4,3 +4,6 @@ services:
     build: .
     volumes:
     - .:/workspace
+    - /workspace/.gradle
+    - /workspace/bin
+    - /workspace/build
