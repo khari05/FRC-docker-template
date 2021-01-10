@@ -6,7 +6,7 @@ There is currently a [bug in WPILib](https://github.com/wpilibsuite/allwpilib/is
 
 ## Prerequisites to install
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [Visual Studio Code](https://code.visualstudio.com/) (Or an IDE or TextEditor of your choice)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 #### Extensions to have installed in VS Code
 - amirha.better-comments-2
