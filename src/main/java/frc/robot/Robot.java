@@ -7,6 +7,8 @@
 
 package frc.robot;
 
+import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
+
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
@@ -39,6 +41,9 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void robotInit() {
+    drive = new DifferentialDrive(new WPI_VictorSPX(1), new WPI_VictorSPX(2));
+    leftStick = new Joystick(0);
+    rightStick = new Joystick(1);
   }
 
   /**
