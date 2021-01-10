@@ -20,7 +20,7 @@ There is currently a [bug in WPILib](https://github.com/wpilibsuite/allwpilib/is
 - wpilibsuite.vscode-wpilib
 - ms-vscode-remote.remote-containers
 
-## Running in the container
+## Running VS Code in the container
 1 Clone this repository
   * You may do this using the Github Desktop App or CLI.
     * `git clone https://github.com/khari05/FRC-docker-template.git your-project-name`
