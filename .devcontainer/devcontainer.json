@@ -22,6 +22,7 @@
 		"git.confirmSync": false
 	},
     "extensions": [
+		"ms-vsliveshare.vsliveshare",
         "amirha.better-comments-2",
         "coenraads.bracket-pair-colorizer",
         "donjayamanne.githistory",

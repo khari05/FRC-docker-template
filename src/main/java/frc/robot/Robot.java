@@ -7,16 +7,18 @@
 
 package frc.robot;
 
-import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
+import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
 /**
- * ! This is an example program that can be used as a base image to experiment with.
+ * ! This is an example program that can be used as a base image to experiment
+ * with.
  * 
- * * The extension aaron-bond.better-comments should be installed for comment coloring.
+ * * The extension aaron-bond.better-comments should be installed for comment
+ * coloring.
  * 
  * ? This is what a question comment looks like.
  * 
@@ -41,7 +43,7 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void robotInit() {
-    drive = new DifferentialDrive(new WPI_VictorSPX(1), new WPI_VictorSPX(2));
+    drive = new DifferentialDrive(new WPI_TalonSRX(1), new WPI_TalonSRX(2));
     leftStick = new Joystick(0);
     rightStick = new Joystick(1);
   }
@@ -83,6 +85,6 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void teleopPeriodic() {
-    drive.tankDrive(leftStick.getY(), rightStick.getY());
+    drive.arcadeDrive(leftStick.getY(), rightStick.getX());
   }
 }
